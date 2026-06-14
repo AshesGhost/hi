@@ -5,6 +5,10 @@ from plyer import notification
 from datetime import datetime
 
 
+###########################
+# Author: AshesGhost      #
+###########################
+
 def line():
     terminal_width = shutil.get_terminal_size().columns
     print("\rhi!:"+"-" * (terminal_width-4))
